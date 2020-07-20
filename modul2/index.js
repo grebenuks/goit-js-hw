@@ -46,23 +46,26 @@
 //  */
 //  */ Задание 3
 //  */
-// const findLongestWord = function (string) {
-//   const str = string.split(' ');
-//   let longest = 0;
-//   let word = null;
-//   for (let i = 0; i < str.length; i++) {
-//     if (longest < str[i].length) {
-//       longest = str[i].length;
-//       word = str[i];
-//     }
-//   }
-//   return word;
-// };
 
-// //  * Вызовы функции для проверки работоспособности твоей реализации.
+const findLongestWord = function (string) {
+  const str = string.split(' ');
+  let longest = '';
 
-// console.log(findLongestWord('The quick brown fox jumped over the lazy dog')); // 'jumped'
+  for (let i = 0; i < str.length; i++) {
+    if (str[i].length > longest.length) longest = str[i];
+  }
 
-// console.log(findLongestWord('Google do a roll')); // 'Google'
+  return longest;
+};
 
-// console.log(findLongestWord('May the force be with you')); // 'force'
+//  * Проверка работоспособности
+
+console.log(findLongestWord('The quick brown fox jumped over the lazy dog')); // 'jumped'
+
+console.log(findLongestWord('Google do a roll')); // 'Google'
+
+console.log(findLongestWord('May the force be with you')); // 'force'
+
+//  */
+//  */ Задание 4
+//  */
