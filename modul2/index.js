@@ -43,9 +43,9 @@
 //   calculateEngravingPrice('Donec orci lectus aliquam est magnis', 20),
 // ); // 120
 
-// //  */
-// //  */ Задание 3
-// //  */
+//  */
+//  */ Задание 3
+//  */
 
 // const findLongestWord = function (string) {
 //   const str = string.split(' ');
@@ -103,7 +103,8 @@
 //  */ Задание 5
 //  */
 // const checkForSpam = function (message) {
-//   if (message.includes('SPAM') || message.includes('sale')) {
+//   let lowerMessage = message.toLowerCase();
+//   if (lowerMessage.includes('spam') || message.includes('sale')) {
 //     return true;
 //   } else {
 //     return false;
@@ -120,3 +121,7 @@
 // console.log(checkForSpam('Get best sale offers now!')); // true
 
 // console.log(checkForSpam('[SPAM] How to earn fast money?')); // true
+
+//  */
+//  */ Задание 6
+//  */
