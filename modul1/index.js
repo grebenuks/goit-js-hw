@@ -95,13 +95,13 @@
 // console.log(`Доставка в ${inUpperCase} будет стоить ${cost} кредитов`);
 
 // Задание 6
-//   let total = 0;
-//   let input;
-//   do {
-//     input = +prompt('Введи число');
-//     total += input;
-//   } while (input);
-//   alert('Общая сумма чисел равна ' + total + '');
+// let total = 0;
+// let input = 0;
+// do {
+//   input = +prompt('Введи число');
+//   total += input;
+// } while (input);
+// alert('Общая сумма чисел равна ' + total + '');
 
 // Задание 6 (с проверкой isNaN)
 // let total = 0;

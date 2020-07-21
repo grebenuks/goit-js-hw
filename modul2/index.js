@@ -125,3 +125,20 @@
 //  */
 //  */ Задание 6
 //  */
+
+// let input = 0;
+// const numbers = [];
+// let total = 0;
+// while (input !== null) {
+//   input = prompt('Введите число:', '');
+//   !isNaN(input) ? (total = total + +input) : alert('Введено не число!');
+//   numbers.push(isNaN(input));
+//   for (let i = 0; i < numbers.length; i++) {
+//     total += Number(numbers[i]);
+//   }
+// }
+// console.log(`Общая сумма чисел равна ${total}`);
+
+//  */
+//  */ Задание 7
+//  */
