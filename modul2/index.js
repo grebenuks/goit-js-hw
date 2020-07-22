@@ -70,14 +70,11 @@
 //  */ Задание 4
 //  */
 // const formatString = function (string) {
-//   if (string.length < 40) {
-//     return string;
-//   }
 //   if (string.length > 40) {
 //     let newString = string.slice(0, 40);
 //     newString = newString + '...';
 //     return newString;
-//   }
+//   } else return string;
 // };
 
 // /*
