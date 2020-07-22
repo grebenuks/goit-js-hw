@@ -50,8 +50,9 @@
 // const findLongestWord = function (string) {
 //   const str = string.split(' ');
 //   let longest = '';
+//   let strLength = str.length;
 
-//   for (let i = 0; i < str.length; i++) {
+//   for (let i = 0; i < strLength; i++) {
 //     if (str[i].length > longest.length) longest = str[i];
 //   }
 
