@@ -90,13 +90,12 @@ import users from './users.js';
 //? при этом не должно быть повторяющихся умений и они должны быть отсортированы в алфавитном порядке.
 
 // const getSortedUniqueSkills = users => {
-//   return users
-//     .reduce((allSkills, user) => {
+//   return users.reduce((allSkills, user) => {
 //       allSkills.push(...user.skills);
 //       allSkills.sort();
 //       return allSkills;
 //     }, [])
-//     .filter((skills, index, arr) => arr.indexOf(skills) == index); // тут не понятно, нужно переделать!
+//     .filter((skills, index, arr) => arr.indexOf(skills) == index);
 // };
 
 // console.log(getSortedUniqueSkills(users));
